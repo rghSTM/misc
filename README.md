@@ -4,6 +4,7 @@ maldev en ASM et C
 
 # Documentation
 
+- Adownload.asm : MASM
 
 - Shellcoding_C2 montre de quoi est constitué un shellcode de cobalt strike, il utilise des fonctions de wininet pour créer des socket + support HTTP, pour faire vos shellcode pour vos C2, faite le en asm (voir Adownload.asm)
 
