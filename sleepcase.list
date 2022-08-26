@@ -1,0 +1,22 @@
+API :
+
+- SetWaitableTimer/CreateWaitableTimerA + PTIMERAPCROUTINE Struct
+- NtCreateTimer/NtSetTimer
+- SymRegisterCallback & EntropyRegisterCallback
+- NtDelayExecution
+- SetThreadExecutionState 
+- RtlRegisterWait
+- CreateTimerQueueTimer / CreateTimerQueue
+
+- user-mode scheduling - UMS / UMS_CREATE_THREAD_ATTRIBUTES + worker thread.
+- QueueUserAPC + trampoline
+
+- RtlTimeToSecondsSince1980 
+
+Structure:
+- Shared User Data: _KUSER_SHARE_DATA + SystemTime 
+   +0x008 InterruptTime    : _KSYSTEM_TIME
+   +0x014 SystemTime       : _KSYSTEM_TIME
+   +0x020 TimeZoneBias     : _KSYSTEM_TIME
+   +0x320 TickCount        : _KSYSTEM_TIME
+   +0x710 FeatureConfigurationChangeStamp : _KSYSTEM_TIME
