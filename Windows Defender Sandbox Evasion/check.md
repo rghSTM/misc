@@ -1,9 +1,9 @@
-Check if own binary name is myapp.exe (Defender)
-Check if icq.exe, antivirus.exe, myapp.exe, wmplayer.exe is running (Defender)
-Check if username is JohnDoe (Defender)
-Check if Computername is HAL9TH (Defender)
+- Check if own binary name is myapp.exe (Defender)
+- Check if icq.exe, antivirus.exe, myapp.exe, wmplayer.exe is running (Defender)
+- Check if username is JohnDoe (Defender)
+- Check if Computername is HAL9TH (Defender)
  
-Check if following functions exists in kernel32.dll (Defender)
+- Check if following functions exists in kernel32.dll (Defender)
     
         MpReportEventEx
         MpReportEventW
@@ -13,7 +13,7 @@ Check if following functions exists in kernel32.dll (Defender)
         MpCreateMemoryAliasing
         MpReportEvent
 
-Check if following functions exists in ntdll.dll
+- Check if following functions exists in ntdll.dll
 
         VFS_DeleteFileByHandle 
         VFS_FileExists 
