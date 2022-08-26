@@ -1,4 +1,4 @@
-# Hide Process Memory
+// Hide Process Memory - reenz0h
 
 #include <windows.h>
 #include <stdio.h>
