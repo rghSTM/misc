@@ -13,6 +13,9 @@ API :
 - user-mode scheduling - UMS / UMS_CREATE_THREAD_ATTRIBUTES + worker thread.
 - QueueUserAPC + trampoline
 
+- Cobalt Strike Sleep Mask Kit
+  - using XOR key
+
 - RtlTimeToSecondsSince1980 
 
 Structure:
