@@ -5,7 +5,7 @@ maldev en ASM et C
 # Documentation
 
 
-- Shellcoding_C2 montre de quoi est constitué un shellcode de cobalt strike, il utilise des fonctions de wininet pour créer des socket + support HTTP, pour faire vos shellcode pour vos C2, faite le en asm
+- Shellcoding_C2 montre de quoi est constitué un shellcode de cobalt strike, il utilise des fonctions de wininet pour créer des socket + support HTTP, pour faire vos shellcode pour vos C2, faite le en asm (voir Adownload.asm)
 
 - avast hooks comporte tout les hooks d'avast, on peut utiliser un syscall stub avec le SSN, Convention d'appel et `syscall; ret` pour l'execution direct.
 
