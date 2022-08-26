@@ -23,3 +23,8 @@ if (ProgramPath
 }
 ```
 
+
+- apicall stubs are located throughout VDLL,
+  - parse stub in VDLL
+
+- Sandbox Evasion : 
