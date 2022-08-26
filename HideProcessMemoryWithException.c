@@ -1,4 +1,4 @@
-// Hide Process Memory - reenz0h
+// Hide Process Memory - reenz0h / DEFCON30
 
 #include <windows.h>
 #include <stdio.h>
