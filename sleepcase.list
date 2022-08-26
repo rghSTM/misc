@@ -7,6 +7,8 @@ API :
 - SetThreadExecutionState 
 - RtlRegisterWait
 - CreateTimerQueueTimer / CreateTimerQueue
+- CreateThreadpoolTimer / InitializeFiletimeMs / SetThreadpoolTimer
+
 
 - user-mode scheduling - UMS / UMS_CREATE_THREAD_ATTRIBUTES + worker thread.
 - QueueUserAPC + trampoline
