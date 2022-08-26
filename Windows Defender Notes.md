@@ -27,4 +27,4 @@ if (ProgramPath
 - apicall stubs are located throughout VDLL,
   - parse stub in VDLL
 
-- Sandbox Evasion : 
+Sandbox Evasion :  https://github.com/gh0stfaceee/misc/blob/main/Windows%20Defender%20Sandbox%20Evasion/check.md
