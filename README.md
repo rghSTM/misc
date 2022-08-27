@@ -14,6 +14,7 @@ maldev en ASM et C
 
 - SleepCase Comporte des techniques de sleeping, on peut aussi utiliser la méthode de Ekko 'Sleep Encryption' qui utilise un style de ROP chains (indirect execution) et `SystemFunction032`, pour la ROP chains qui est une indirect execution, on peut bypass CFG avec SetProcessValidCallTargets + ajouts d'exception
 
+- Direct Syscall via NTDLL Remapping + Debugging Engine (LDE)
 
 
 ### DEFCON Map Blink Code Explanation
